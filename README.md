@@ -13,6 +13,7 @@
 2.5 Read from a video file and work 
 2.75 Save time markers for bounds of promotion 
 3. Compile List of keywords to search for ("Discount", "Coupon Code", "Our friends at so and so.."
+3.5 turn .txt list of keywords to python list 
 4. Pull video down from streaming site 
 5. Cropping part of a video out .( native fast forward from streaming service maybe?)
 6. Make a traditional ad blocker 
@@ -28,5 +29,5 @@
 
 # Credits / Resources 
 https://realpython.com/python-speech-recognition/
-
+https://www.honeycopy.com/copywritingblog/powerful-marketing-words
 
