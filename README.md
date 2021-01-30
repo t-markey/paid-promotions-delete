@@ -12,8 +12,8 @@
 2. Test with audio files
 3. Read from a video file and work 
 4. Save time markers for bounds of promotion 
-<del>5. Compile List of keywords to search for ("Discount", "Coupon Code", "Our friends at so and so.."</del>
-6. turn .txt list of keywords to python list 
+5. <del>Compile List of keywords to search for ("Discount", "Coupon Code", "Our friends at so and so.."</del>
+6. <del>Turn .txt list of keywords to python list </del>
 7. Pull video down from streaming site 
 8. Cropping part of a video out .( native fast forward from streaming service maybe?)
 9. Make a traditional ad blocker 
