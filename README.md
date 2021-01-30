@@ -1,0 +1,1 @@
+# paid-promotions-delete
