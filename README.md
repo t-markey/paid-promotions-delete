@@ -19,6 +19,19 @@
 9. Make a traditional ad blocker 
 
 
+## Getting started 
+
+Installing the Speech Recognition wrapper
+`pip install SpeechRecognition `
+
+
+
+Needed to convert some sample mp3 to wav
+`ffmpeg -i input.mp3 output.wav `
+
+
+
+
 
 
 ## Ideas
@@ -30,4 +43,5 @@
 # Credits / Resources 
 https://realpython.com/python-speech-recognition/
 https://www.honeycopy.com/copywritingblog/powerful-marketing-words
+https://ontiva.com/en
 
