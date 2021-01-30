@@ -10,13 +10,13 @@
 ## Tasks
 1. Speech recognition up and running 
 2. Test with audio files
-2.5 Read from a video file and work 
-2.75 Save time markers for bounds of promotion 
-3. Compile List of keywords to search for ("Discount", "Coupon Code", "Our friends at so and so.."
-3.5 turn .txt list of keywords to python list 
-4. Pull video down from streaming site 
-5. Cropping part of a video out .( native fast forward from streaming service maybe?)
-6. Make a traditional ad blocker 
+3. Read from a video file and work 
+4. Save time markers for bounds of promotion 
+<del>5. Compile List of keywords to search for ("Discount", "Coupon Code", "Our friends at so and so.."</del>
+6. turn .txt list of keywords to python list 
+7. Pull video down from streaming site 
+8. Cropping part of a video out .( native fast forward from streaming service maybe?)
+9. Make a traditional ad blocker 
 
 
 
