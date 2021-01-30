@@ -21,7 +21,7 @@ for line in file:
 file.close()
 
 filesuffix = str(randint(0,100))
-newfilename =  "keywords_" + filesuffix + ".py"
+newfilename =  "keywords" + filesuffix + ".py"
 newfile = open(newfilename, 'x')
 newfile = open(newfilename, 'w')
 content = "KEYWORDS = " + str(list)
