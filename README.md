@@ -40,14 +40,64 @@ With recognize.py, output is a set of matched terms from the comparison of a pro
 
 Audio Sample:
 
-`["today's", 'sponsor', 'raid', 'Shadow', 'Legend', 'and', 'play', 'this', 'game', 'all', 'the', 'time', 'and', 'there', 'was', 'a', 'huge', 'supporter', 'of', 'this', 'channel', 'description', 'below']`
+```["today's", 'sponsor', 'raid', 'Shadow', 'Legend', 'and', 'play', 'this', 'game', 'all', 'the', 'time', 'and', 'there', 'was', 'a', 'huge', 'supporter', 'of', 'this', 'channel', 'description', 'below']
+```
 
-Matched Keywords:
+Matched Keywords against a list of common marketing phrases, buzz words, and youtube slang:
 
 `{'this', 'channel', 'a', 'huge', 'and', 'description', 'the', 'of', 'supporter', 'below'}`
 
 
 
+
+Repitition of words could indicate a segment of video being a paid promotion. The following are a few well known big budget commercials:
+
+```['apply', 'directly', 'to', 'the', 'forehead', 'head', 'on', 'directly', 'to', 'the', 'forehead', 'head', 'on', 'Walgreens']
+{'to', 'the'}
+{'apply': 1, 'directly': 2, 'to': 2, 'the': 2, 'forehead': 2, 'head': 2, 'on': 2, 'Walgreens': 1}
+```
+
+and this is an easy one to guess...
+
+```meow.wav
+['meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow']
+set()
+{'meow': 11}
+```
+
+Using  `rec.recognize_google(audio, show_all=True)` You can get all the possible translations :
+
+
+```{'alternative': [{'transcript': "who was made with real bacon there's no time "
+                                'like Beggin'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like begging'},
+                 {'transcript': 'who was made with real bacon there is no time '
+                                'like begging'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like baygon'},
+                 {'transcript': 'who was made with real bacon is no time like '
+                                'begging'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like bagin'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like baking'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like bacon'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like bekon'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like beacon'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like bega'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like benning'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like beken'}],
+```
+
+
+=
 
 ## Ideas
 - Get rid of the comments section also
