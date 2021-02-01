@@ -41,13 +41,14 @@ Use txt_to_list.py takes in a txt based list of phrases and keywords and outputs
 With recognize.py, output is a set of matched terms from the comparison of a promotional sample and the list of keywords and phrases.
 
 Audio Sample:
-
-```["today's", 'sponsor', 'raid', 'Shadow', 'Legend', 'and', 'play', 'this', 'game', 'all', 'the', 'time', 'and', 'there', 'was', 'a', 'huge', 'supporter', 'of', 'this', 'channel', 'description', 'below']
+```
+["today's", 'sponsor', 'raid', 'Shadow', 'Legend', 'and', 'play', 'this', 'game', 'all', 'the', 'time', 'and', 'there', 'was', 'a', 'huge', 'supporter', 'of', 'this', 'channel', 'description', 'below']
 ```
 
 Matched Keywords against a list of common marketing phrases, buzz words, and youtube slang:
 
-```{'this', 'channel', 'a', 'huge', 'and', 'description', 'the', 'of', 'supporter', 'below'}```
+```{'this', 'channel', 'a', 'huge', 'and', 'description', 'the', 'of', 'supporter', 'below'}
+```
 
 
 
