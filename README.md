@@ -47,7 +47,9 @@ Audio Sample:
 
 Matched Keywords against a list of common marketing phrases, buzz words, and youtube slang:
 
-```{'this', 'channel', 'a', 'huge', 'and', 'description', 'the', 'of', 'supporter', 'below'}
+
+```
+{'this', 'channel', 'a', 'huge', 'and', 'description', 'the', 'of', 'supporter', 'below'}
 ```
 
 
