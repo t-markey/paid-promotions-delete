@@ -17,8 +17,9 @@
 7. Pull video down from streaming site 
 8. Cropping part of a video out .( native fast forward from streaming service maybe?)
 9. Make a traditional ad blocker 
-10. Test Duration and Noise in recognition
+10. <del>Test Duration and Noise in recognition</del>
 11. Find which api that will do longer samples(google is cutting off the sample)
+12. Count occurances of of words in samples
 
 
 ## Getting started 
