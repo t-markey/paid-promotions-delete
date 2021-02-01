@@ -17,9 +17,14 @@
 7. Pull video down from streaming site 
 8. Cropping part of a video out .( native fast forward from streaming service maybe?)
 9. Make a traditional ad blocker 
-10. Test Duration and Noise in recognition
+10. <del>Test Duration and Noise in recognition</del>
 11. Find which api that will do longer samples(google is cutting off the sample)
+<<<<<<< HEAD
 12. Look for repititions of words in the sample
+=======
+12. <del>Count occurances of of words in samples</del>
+
+>>>>>>> 51c3a50b89bbf61b957b52a3f2e9ada714a3e2b4
 
 ## Getting started 
 
@@ -39,14 +44,64 @@ With recognize.py, output is a set of matched terms from the comparison of a pro
 
 Audio Sample:
 
-`["today's", 'sponsor', 'raid', 'Shadow', 'Legend', 'and', 'play', 'this', 'game', 'all', 'the', 'time', 'and', 'there', 'was', 'a', 'huge', 'supporter', 'of', 'this', 'channel', 'description', 'below']`
+```["today's", 'sponsor', 'raid', 'Shadow', 'Legend', 'and', 'play', 'this', 'game', 'all', 'the', 'time', 'and', 'there', 'was', 'a', 'huge', 'supporter', 'of', 'this', 'channel', 'description', 'below']
+```
 
-Matched Keywords:
+Matched Keywords against a list of common marketing phrases, buzz words, and youtube slang:
 
 `{'this', 'channel', 'a', 'huge', 'and', 'description', 'the', 'of', 'supporter', 'below'}`
 
 
 
+
+Repitition of words could indicate a segment of video being a paid promotion. The following are a few well known big budget commercials:
+
+```['apply', 'directly', 'to', 'the', 'forehead', 'head', 'on', 'directly', 'to', 'the', 'forehead', 'head', 'on', 'Walgreens']
+{'to', 'the'}
+{'apply': 1, 'directly': 2, 'to': 2, 'the': 2, 'forehead': 2, 'head': 2, 'on': 2, 'Walgreens': 1}
+```
+
+and this is an easy one to guess...
+
+```meow.wav
+['meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow', 'meow']
+set()
+{'meow': 11}
+```
+
+Using  `rec.recognize_google(audio, show_all=True)` You can get all the possible translations :
+
+
+```{'alternative': [{'transcript': "who was made with real bacon there's no time "
+                                'like Beggin'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like begging'},
+                 {'transcript': 'who was made with real bacon there is no time '
+                                'like begging'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like baygon'},
+                 {'transcript': 'who was made with real bacon is no time like '
+                                'begging'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like bagin'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like baking'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like bacon'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like bekon'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like beacon'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like bega'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like benning'},
+                 {'transcript': "who was made with real bacon there's no time "
+                                'like beken'}],
+```
+
+
+=
 
 ## Ideas
 - Get rid of the comments section also
