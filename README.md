@@ -19,7 +19,7 @@
 9. Make a traditional ad blocker 
 10. <del>Test Duration and Noise in recognition</del>
 11. Find which api that will do longer samples(google is cutting off the sample)
-12. Count occurances of of words in samples
+12. <del>Count occurances of of words in samples</del>
 
 
 ## Getting started 
