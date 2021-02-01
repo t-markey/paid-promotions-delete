@@ -19,12 +19,10 @@
 9. Make a traditional ad blocker 
 10. <del>Test Duration and Noise in recognition</del>
 11. Find which api that will do longer samples(google is cutting off the sample)
-<<<<<<< HEAD
 12. Look for repititions of words in the sample
-=======
-12. <del>Count occurances of of words in samples</del>
+13. <del>Count occurances of of words in samples</del>
 
->>>>>>> 51c3a50b89bbf61b957b52a3f2e9ada714a3e2b4
+
 
 ## Getting started 
 
@@ -49,7 +47,7 @@ Audio Sample:
 
 Matched Keywords against a list of common marketing phrases, buzz words, and youtube slang:
 
-`{'this', 'channel', 'a', 'huge', 'and', 'description', 'the', 'of', 'supporter', 'below'}`
+```{'this', 'channel', 'a', 'huge', 'and', 'description', 'the', 'of', 'supporter', 'below'}```
 
 
 
@@ -101,7 +99,7 @@ Using  `rec.recognize_google(audio, show_all=True)` You can get all the possible
 ```
 
 
-=
+
 
 ## Ideas
 - Get rid of the comments section also
