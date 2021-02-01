@@ -19,7 +19,7 @@
 9. Make a traditional ad blocker 
 10. Test Duration and Noise in recognition
 11. Find which api that will do longer samples(google is cutting off the sample)
-
+12. Look for repititions of words in the sample
 
 ## Getting started 
 
