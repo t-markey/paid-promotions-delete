@@ -14,13 +14,14 @@
 4. Save time markers for bounds of promotion 
 5. <del>Compile List of keywords to search for ("Discount", "Coupon Code", "Our friends at so and so.."</del>
 6. <del>Turn .txt list of keywords to python list </del>
-7. Pull video down from streaming site 
+7. <del>Pull video down from streaming site </del>
 8. Cropping part of a video out .( native fast forward from streaming service maybe?)
 9. Make a traditional ad blocker 
 10. <del>Test Duration and Noise in recognition</del>
 11. Find which api that will do longer samples(google is cutting off the sample)
-12. Look for repititions of words in the sample
+12. <del>Look for repititions of words in the sample</del>
 13. <del>Count occurances of of words in samples</del>
+14. Automate running ffmpeg on downloaded video to get .wav
 
 
 
@@ -101,7 +102,11 @@ Using  `rec.recognize_google(audio, show_all=True)` You can get all the possible
                                 'like beken'}],
 ```
 
+### Noder Server port 4000 Run the following in /Server
 
+```
+node index.js
+```
 
 
 ## Ideas
@@ -115,4 +120,5 @@ Using  `rec.recognize_google(audio, show_all=True)` You can get all the possible
 https://realpython.com/python-speech-recognition/
 https://www.honeycopy.com/copywritingblog/powerful-marketing-words
 https://ontiva.com/en
+https://blog.usejournal.com/how-i-made-my-own-youtube-downloader-using-javascript-and-node-js-160b172f6e10
 
