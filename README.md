@@ -22,6 +22,7 @@
 12. <del>Look for repititions of words in the sample</del>
 13. <del>Count occurances of of words in samples</del>
 14. Automate running ffmpeg on downloaded video to get .wav
+15. Download video to current directory not downloads or get from downloads after
 
 
 
